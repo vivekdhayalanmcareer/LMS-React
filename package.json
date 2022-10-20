@@ -6,9 +6,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "predeploy": "next build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
@@ -20,9 +23,10 @@
   "bugs": {
     "url": "https://github.com/vivekdhayalanmcareer/LMS-React/issues"
   },
-  "homepage": "https://github.com/vivekdhayalanmcareer/LMS-React#readme",
+  "homepage": "https://vivekdhayalanmcareer.github.io/LMS-React",
   "dependencies": {
     "antd": "4.22.3",
+    "formik": "^2.2.9",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
