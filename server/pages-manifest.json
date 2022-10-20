@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/admin/make/certificate": "pages/admin/make/certificate.html",
+  "/admin/make/badge": "pages/admin/make/badge.html",
+  "/admin/view": "pages/admin/view.html",
+  "/certificates": "pages/certificates.html",
+  "/badges": "pages/badges.html",
+  "/courses": "pages/courses.html",
+  "/": "pages/index.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
